@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="bKash-app" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bKash-app.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="islamic_wallpaper_17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\islamic_wallpaper_17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IMG_5404_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IMG_5404_3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nagad-app" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nagad-app.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bin_khatla_5ed2f0dda9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bin_khatla_5ed2f0dda9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye-icons-set-password-eye-vision-illustration-sign-collection-suitable-for-design-element-of-user-login-ui-ux-free-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye-icons-set-password-eye-vision-illustration-sign-collection-suitable-for-design-element-of-user-login-ui-ux-free-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brac-bank-Limited-logo-Bangladesh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brac-bank-Limited-logo-Bangladesh.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2023-12-31 193115" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2023-12-31 193115.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rocket-app" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rocket-app.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mosque" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mosque.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="adminlogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\adminlogin.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moscow-cathedral-mosque-prospekt-mira-ramadan-sky-161276" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moscow-cathedral-mosque-prospekt-mira-ramadan-sky-161276.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="no_image_avaiable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\no image avaiable.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BKASH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BKASH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="babar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\babar1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="78-780842_back-button-white-icon-png-transparent-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\78-780842_back-button-white-icon-png-transparent-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="exim-bank-logo-2E47334B03-seeklogo.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exim-bank-logo-2E47334B03-seeklogo.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finalback1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finalback1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dua-for-business-growth-1-991x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dua-for-business-growth-1-991x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="64929822_10156227575821471_2270368542148788224_n_Nero AI_Generic_x4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\64929822_10156227575821471_2270368542148788224_n_Nero AI_Generic_x4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="umrah-14-days" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\umrah-14-days.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ecomm_gl_sw_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ecomm_gl_sw_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microsoft_Teams_image_1_4a82cc256b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Microsoft_Teams_image_1_4a82cc256b1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Microsoft_Teams_image_1_4a82cc256b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Microsoft_Teams_image_1_4a82cc256b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12385aae404e9b0341f604ed50fe0cc0_Nero AI_Generic_x4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12385aae404e9b0341f604ed50fe0cc0_Nero AI_Generic_x4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contact-page-privacy-password-account-padlock-login-christianity-technic-user-information" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contact-page-privacy-password-account-padlock-login-christianity-technic-user-information.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="babarrr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\babarrr.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\card.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="19653101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19653101.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="babar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\babar.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="de57f6168b46f4aacd7cbff20cfbf365" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\de57f6168b46f4aacd7cbff20cfbf365.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3c413418ca813955b8b0d579dbe13ddd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3c413418ca813955b8b0d579dbe13ddd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="naiem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\naiem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Superior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Superior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FtOtXClWYAE_b1I" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FtOtXClWYAE_b1I.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_Qafilat_Altawhid_b9bf784c241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_Qafilat_Altawhid_b9bf784c241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_Qafilat_Altawhid_b9bf784c242" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_Qafilat_Altawhid_b9bf784c242.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="179308380-hide-icon-an-icon-that-turns-off-the-display-invisible-icon-an-eye-icon-used-to-hide-passwords-and" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\179308380-hide-icon-an-icon-that-turns-off-the-display-invisible-icon-an-eye-icon-used-to-hide-passwords-and.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1acc56b54afcabb0279adbc3c405e000-copy-min" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1acc56b54afcabb0279adbc3c405e000-copy-min.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HAJJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HAJJ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="activity2.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\activity2.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dbbl1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dbbl1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deluxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deluxe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="show-password-icon-eye-symbol-vector-vision-hide-from-watch-icon-secret-view-web-design-element_87543-11126" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\show-password-icon-eye-symbol-vector-vision-hide-from-watch-icon-secret-view-web-design-element_87543-11126.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Visa_debit_2014_logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Visa_debit_2014_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="makkah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\makkah.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dbbl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dbbl.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="60abe030d6d49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\60abe030d6d49.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_10073969" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10073969.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1965310" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1965310.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bkash_payment_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bkash_payment_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_Qafilat_Altawhid_b9bf784c24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_Qafilat_Altawhid_b9bf784c24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\upay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alshear_adab4d4785" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alshear_adab4d4785.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Economy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Economy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="donation activities 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\donation activities 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Economy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Economy1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="show-password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\show-password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nagad-1-2209050739-2211021158" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nagad-1-2209050739-2211021158.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="306309" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\306309.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mastercard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mastercard-logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nazmul" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nazsir.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="umrah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\umrah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nagad-logo-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nagad-logo-2.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="islamic-prayer-time-schedule-vector-template_606364-214" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\islamic-prayer-time-schedule-vector-template_606364-214.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rocket" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rocket.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

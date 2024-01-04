@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A62DA45-3766-4DE0-9CD9-93B3EC2C2010}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Way_to_Deen</RootNamespace>
+    <AssemblyName>Way to Deen</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\University\Semester 6\oop2\New folder\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5CB090255E068C8F709A617BACF83BADC5337927</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Way to Deen_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aboutlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aboutlogin.designer.cs">
+      <DependentUpon>Aboutlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin.designer.cs">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminuser.Designer.cs">
+      <DependentUpon>adminuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminPayment.Designer.cs">
+      <DependentUpon>AdminPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="All_Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="All_Users.designer.cs">
+      <DependentUpon>All_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DEENlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DEENlogin.designer.cs">
+      <DependentUpon>DEENlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Donationlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donationlogin.Designer.cs">
+      <DependentUpon>Donationlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFeedback .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminFeedback .Designer.cs">
+      <DependentUpon>AdminFeedback .cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feedbackvisitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedbackvisitor.Designer.cs">
+      <DependentUpon>Feedbackvisitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Feedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Feedback.Designer.cs">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HajjDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HajjDetails.Designer.cs">
+      <DependentUpon>HajjDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HajjUmrahLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HajjUmrahLogin.Designer.cs">
+      <DependentUpon>HajjUmrahLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Packagelogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Packagelogin.Designer.cs">
+      <DependentUpon>Packagelogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pay1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pay1.designer.cs">
+      <DependentUpon>Pay1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admindonation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admindonation.Designer.cs">
+      <DependentUpon>Admindonation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DEEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DEEN.designer.cs">
+      <DependentUpon>DEEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Donation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donation.Designer.cs">
+      <DependentUpon>Donation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Donation2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Donation2.Designer.cs">
+      <DependentUpon>Donation2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HajjUmrah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HajjUmrah.Designer.cs">
+      <DependentUpon>HajjUmrah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homme.Designer.cs">
+      <DependentUpon>Homme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Package.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Package.Designer.cs">
+      <DependentUpon>Package.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileINFO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProfileINFO.Designer.cs">
+      <DependentUpon>ProfileINFO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tablighlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tablighlogin.designer.cs">
+      <DependentUpon>Tablighlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabligh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabligh.designer.cs">
+      <DependentUpon>Tabligh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Umrah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Umrah.Designer.cs">
+      <DependentUpon>Umrah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Web.Designer.cs">
+      <DependentUpon>Web.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Aboutlogin.resx">
+      <DependentUpon>Aboutlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin.resx">
+      <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminuser.resx">
+      <DependentUpon>adminuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminPayment.resx">
+      <DependentUpon>AdminPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="All_Users.resx">
+      <DependentUpon>All_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DEENlogin.resx">
+      <DependentUpon>DEENlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donationlogin.resx">
+      <DependentUpon>Donationlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminFeedback .resx">
+      <DependentUpon>AdminFeedback .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedbackvisitor.resx">
+      <DependentUpon>Feedbackvisitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Feedback.resx">
+      <DependentUpon>Feedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HajjDetails.resx">
+      <DependentUpon>HajjDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HajjUmrahLogin.resx">
+      <DependentUpon>HajjUmrahLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Packagelogin.resx">
+      <DependentUpon>Packagelogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pay1.resx">
+      <DependentUpon>Pay1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admindonation.resx">
+      <DependentUpon>Admindonation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DEEN.resx">
+      <DependentUpon>DEEN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donation.resx">
+      <DependentUpon>Donation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Donation2.resx">
+      <DependentUpon>Donation2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HajjUmrah.resx">
+      <DependentUpon>HajjUmrah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homme.resx">
+      <DependentUpon>Homme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Package.resx">
+      <DependentUpon>Package.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProfileINFO.resx">
+      <DependentUpon>ProfileINFO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tablighlogin.resx">
+      <DependentUpon>Tablighlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabligh.resx">
+      <DependentUpon>Tabligh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Umrah.resx">
+      <DependentUpon>Umrah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Web.resx">
+      <DependentUpon>Web.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1965310.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-icon-button-vector-illustration-isolated-white-background-126997728.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-icon-button-vector-illustration-isolated-white-background-1269977281.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-icon-button-blue-glossy-with-shadow-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\306309.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\islamic_wallpaper_17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mosque.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10073969.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\makkah.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60abe030d6d49.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moscow-cathedral-mosque-prospekt-mira-ramadan-sky-161276.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bkash_payment_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nagad-1-2209050739-2211021158.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbbl.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mastercard-logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no image avaiable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nagad-logo-2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Visa_debit_2014_logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exim-bank-logo-2E47334B03-seeklogo.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brac-bank-Limited-logo-Bangladesh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dbbl1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BKASH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bKash-app.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_Qafilat_Altawhid_b9bf784c24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FtOtXClWYAE_b1I.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin_khatla_5ed2f0dda9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft_Teams_image_1_4a82cc256b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_Qafilat_Altawhid_b9bf784c241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Microsoft_Teams_image_1_4a82cc256b1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alshear_adab4d4785.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_Qafilat_Altawhid_b9bf784c242.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nagad-app.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rocket-app.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ecomm_gl_sw_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-button-icon-vector-218812862.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-arrow-icon-special-red-round-button-back-arrow-icon-isolated-special-red-round-button-abstract-illustration-1059048541.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-button-icon-vector-218812863.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\islamic-prayer-time-schedule-vector-template_606364-214.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\babar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naiem.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\babar1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\babarrr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact-page-privacy-password-account-padlock-login-christianity-technic-user-information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye-icons-set-password-eye-vision-illustration-sign-collection-suitable-for-design-element-of-user-login-ui-ux-free-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show-password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\179308380-hide-icon-an-icon-that-turns-off-the-display-invisible-icon-an-eye-icon-used-to-hide-passwords-and.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show-password-icon-eye-symbol-vector-vision-hide-from-watch-icon-secret-view-web-design-element_87543-11126.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64929822_10156227575821471_2270368542148788224_n_Nero AI_Generic_x4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dua-for-business-growth-1-991x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminlogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93634.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\936341.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100by33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\100by331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\78-780842_back-button-white-icon-png-transparent-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalback.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finalback1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de57f6168b46f4aacd7cbff20cfbf365.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12385aae404e9b0341f604ed50fe0cc0_Nero AI_Generic_x4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\umrah-14-days.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\umrah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HAJJ.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Economy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Economy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deluxe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Superior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donation activities 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity2.jpg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-12-31 193115.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19653101.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1acc56b54afcabb0279adbc3c405e000-copy-min.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
