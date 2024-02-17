@@ -1,0 +1,16 @@
+
+**Database Bacpac File is available**
+
+
+ADMIN - 
+-------
+Esti10	47210
+babar13	47213
+Naiem55	45255
+
+
+Registred User
+--------------
+abdullah	12345
+aiub	aiub
+estiyak	1234
